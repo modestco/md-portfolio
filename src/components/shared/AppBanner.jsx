@@ -25,7 +25,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
-					Hi, Iam Stoman
+					Welcome! I'm Jen.
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -37,7 +37,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Full-Stack Developer & Design Enthusiast
+					Accomplished graphic designer with a passion for full-stack development.
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -52,7 +52,7 @@ const AppBanner = () => {
 					<a
 						download="RussellMasato.pdf"
 						href="/files/RussellMasato.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-rose-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-rose-50 focus:ring-1 focus:ring-rose-900 hover:bg-rose-500 text-gray-500 hover:text-white duration-500"
 						aria-label="Download Resume"
 					>
 						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
