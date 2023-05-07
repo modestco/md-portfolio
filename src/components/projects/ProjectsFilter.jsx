@@ -16,15 +16,15 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 sm:px-6
                 py-2
                 border
-                dark:border-secondary-dark
+                dark:border-Rosee
                 rounded-lg
                 text-sm
                 sm:text-md
                 dark:font-medium
-                bg-secondary-light
-                dark:bg-ternary-dark
-                text-primary-dark
-                dark:text-ternary-light
+                bg-White
+                dark:bg-tSage
+                text-Navy
+                dark:text-Gold
             "
 		>
 			<option value={setSelectProject} className="text-sm sm:text-md">

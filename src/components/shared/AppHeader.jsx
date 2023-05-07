@@ -67,10 +67,10 @@ const AppHeader = () => {
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
-						className="block sm:hidden ml-0 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="block sm:hidden ml-0 bg-Grey dark:bg-tSage p-3 shadow-sm rounded-xl cursor-pointer"
 					>
 						{activeTheme === 'dark' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<FiMoon className="text-tSage hover:text-gray-400 dark:text-Gold dark:hover:text-Grey text-xl" />
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}
@@ -87,7 +87,7 @@ const AppHeader = () => {
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								viewBox="0 0 24 24"
-								className="h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light"
+								className="h-7 w-7 fill-current text-Rosee dark:text-Gold"
 							>
 								{showMenu ? (
 									<FiX className="text-3xl" />
@@ -109,26 +109,26 @@ const AppHeader = () => {
 				>
 					<Link
 						to="/projects"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-Navy dark:text-Gold hover:text-Rosee dark:hover:text-White  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projects
 					</Link>
 					<Link
 						to="/about"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						className="block text-left text-lg text-Navy dark:text-Gold hover:text-Rosee dark:hover:text-White  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-Grey dark:border-Rosee"
 						aria-label="About Me"
 					>
 						About Me
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
+						className="block text-left text-lg text-Navy dark:text-Gold hover:text-Rosee dark:hover:text-White  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-Grey dark:border-Rosee"
 						aria-label="Contact"
 					>
 						Contact
 					</Link>
-					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
+					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-Grey dark:border-Rosee">
 						<span
 							onClick={showHireMeModal}
 							className="font-general-medium sm:hidden block text-left text-md bg-rose-500 hover:bg-rose-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
@@ -143,21 +143,21 @@ const AppHeader = () => {
 				<div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
 					<Link
 						to="/projects"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-Navy dark:text-Gold hover:text-Rosee dark:hover:text-White  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projects
 					</Link>
 					<Link
 						to="/about"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-Navy dark:text-Gold hover:text-Rosee dark:hover:text-White  sm:mx-4 mb-2 sm:py-2"
 						aria-label="About Me"
 					>
 						About Me
 					</Link>
 					<Link
 						to="/contact"
-						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
+						className="block text-left text-lg text-Navy dark:text-Gold hover:text-Rosee dark:hover:text-White  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Contact"
 					>
 						Contact
@@ -180,10 +180,10 @@ const AppHeader = () => {
 					<div
 						onClick={() => setTheme(activeTheme)}
 						aria-label="Theme Switcher"
-						className="ml-8 bg-primary-light dark:bg-ternary-dark p-3 shadow-sm rounded-xl cursor-pointer"
+						className="ml-8 bg-Grey dark:bg-tSage p-3 shadow-sm rounded-xl cursor-pointer"
 					>
 						{activeTheme === 'dark' ? (
-							<FiMoon className="text-ternary-dark hover:text-gray-400 dark:text-ternary-light dark:hover:text-primary-light text-xl" />
+							<FiMoon className="text-tSage hover:text-gray-400 dark:text-Gold dark:hover:text-Grey text-xl" />
 						) : (
 							<FiSun className="text-gray-200 hover:text-gray-50 text-xl" />
 						)}

@@ -23,14 +23,14 @@ const HireMeModal = ({ onClose, onRequest }) => {
 			{/* Modal Content */}
 			<main className="flex flex-col items-center justify-center h-full w-full">
 				<div className="modal-wrapper flex items-center z-30">
-					<div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative">
-						<div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
-							<h5 className=" text-primary-dark dark:text-primary-light text-xl">
+					<div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-White dark:bg-Navy max-h-screen shadow-lg flex-row rounded-lg relative">
+						<div className="modal-header flex justify-between gap-10 p-5 border-b border-Gold dark:border-tSage">
+							<h5 className=" text-Navy dark:text-Grey text-xl">
 								What project are you looking for?
 							</h5>
 							<button
 								onClick={onClose}
-								className="px-4 font-bold text-primary-dark dark:text-primary-light"
+								className="px-4 font-bold text-Navy dark:text-Grey"
 							>
 								<FiX className="text-3xl" />
 							</button>
@@ -44,7 +44,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 							>
 								<div className="">
 									<input
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+										className="w-full px-5 py-2 border dark:border-Rosee rounded-md text-md bg-White dark:bg-tSage text-Navy dark:text-Gold"
 										id="name"
 										name="name"
 										type="text"
@@ -55,7 +55,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 								</div>
 								<div className="mt-6">
 									<input
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+										className="w-full px-5 py-2 border dark:border-Rosee rounded-md text-md bg-White dark:bg-tSage text-Navy dark:text-Gold"
 										id="email"
 										name="email"
 										type="text"
@@ -66,7 +66,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 								</div>
 								<div className="mt-6">
 									<select
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+										className="w-full px-5 py-2 border dark:border-Rosee rounded-md text-md bg-White dark:bg-tSage text-Navy dark:text-Gold"
 										id="subject"
 										name="subject"
 										type="text"
@@ -86,7 +86,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 
 								<div className="mt-6">
 									<textarea
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
+										className="w-full px-5 py-2 border dark:border-Rosee rounded-md text-md bg-White dark:bg-tSage text-Navy dark:text-Gold"
 										id="message"
 										name="message"
 										cols="14"
@@ -122,7 +122,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 								type="button"
 								className="px-4
 									sm:px-6
-									py-2 bg-gray-600 text-primary-light hover:bg-ternary-dark dark:bg-gray-200 dark:text-secondary-dark dark:hover:bg-primary-light
+									py-2 bg-gray-600 text-Grey hover:bg-tSage dark:bg-gray-200 dark:text-Rosee dark:hover:bg-Grey
 									rounded-md
 									focus:ring-1 focus:ring-rose-900 duration-500"
 								aria-label="Close Modal"

@@ -6,13 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "primary-light": "#E1DDDB",
-        "secondary-light": "#FFFFFF",
-        "ternary-light": "#C9974E",
+        Grey: "#E1DDDB",
+        White: "#FFFFFF",
+        Gold: "#C9974E",
 
-        "primary-dark": "#171539",
-        "secondary-dark": "#BD7877",
-        "ternary-dark": "#6A7B73",
+        Navy: "#171539",
+        Rosee: "#BD7877",
+        Sage: "#6A7B73",
       },
       container: {
         padding: {

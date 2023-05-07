@@ -18,7 +18,7 @@ const ProjectsGrid = () => {
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
+				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-tSage dark:text-Gold">
 					Projects portfolio
 				</p>
 			</div>
@@ -26,8 +26,8 @@ const ProjectsGrid = () => {
 			<div className="mt-10 sm:mt-16">
 				<h3
 					className="font-general-regular 
-                        text-center text-secondary-dark
-                        dark:text-ternary-light
+                        text-center text-Rosee
+                        dark:text-Gold
                         text-md
                         sm:text-xl
                         mb-3
@@ -39,8 +39,8 @@ const ProjectsGrid = () => {
 					className="
                         flex
                         justify-between
-                        border-b border-primary-light
-                        dark:border-secondary-dark
+                        border-b border-Grey
+                        dark:border-Rosee
                         pb-3
                         gap-3
                         "
@@ -50,15 +50,15 @@ const ProjectsGrid = () => {
 							className="
                                 hidden
                                 sm:block
-                                bg-primary-light
-                                dark:bg-ternary-dark
+                                bg-Grey
+                                dark:bg-tSage
                                 p-2.5
                                 shadow-sm
                                 rounded-xl
                                 cursor-pointer
                                 "
 						>
-							<FiSearch className="text-ternary-dark dark:text-ternary-light w-5 h-5"></FiSearch>
+							<FiSearch className="text-tSage dark:text-Gold w-5 h-5"></FiSearch>
 						</span>
 						<input
 							onChange={(e) => {
@@ -71,14 +71,14 @@ const ProjectsGrid = () => {
                                 py-2
                                 border 
                             border-gray-200
-                                dark:border-secondary-dark
+                                dark:border-Rosee
                                 rounded-lg
                                 text-sm
                                 sm:text-md
-                                bg-secondary-light
-                                dark:bg-ternary-dark
-                                text-primary-dark
-                                dark:text-ternary-light
+                                bg-White
+                                dark:bg-tSage
+                                text-Navy
+                                dark:text-Gold
                                 "
 							id="name"
 							name="name"
