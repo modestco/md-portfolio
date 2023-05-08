@@ -22,7 +22,7 @@ const ProjectsFilter = ({ setSelectProject }) => {
                 sm:text-md
                 dark:font-medium
                 bg-White
-                dark:bg-tSage
+                dark:bg-Sage
                 text-Navy
                 dark:text-Gold
             "

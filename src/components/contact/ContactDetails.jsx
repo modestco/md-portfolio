@@ -1,19 +1,21 @@
 import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
 
+
+
 const contacts = [
 	{
 		id: 1,
-		name: 'Your Address, Your City, Your Country',
+		name: 'London, Ontario, Canada',
 		icon: <FiMapPin />,
 	},
 	{
 		id: 2,
-		name: 'email@domain.com',
+		name: 'jen@jenniferluchka.com',
 		icon: <FiMail />,
 	},
 	{
 		id: 3,
-		name: '555 8888 888',
+		name: '289-776-7750',
 		icon: <FiPhone />,
 	},
 ];
@@ -23,7 +25,7 @@ const ContactDetails = () => {
 		<div className="w-full lg:w-1/2">
 			<div className="text-left max-w-xl px-6">
 				<h2 className="font-general-medium text-2xl text-Navy dark:text-Grey mt-12 mb-8">
-					Contact details
+					Reach out anytime:
 				</h2>
 				<ul className="font-general-regular">
 					{contacts.map((contact) => (
@@ -31,7 +33,7 @@ const ContactDetails = () => {
 							<i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">
 								{contact.icon}
 							</i>
-							<span className="text-lg mb-4 text-tSage dark:text-Gold">
+							<span className="text-lg mb-4 text-Sage dark:text-Gold">
 								{contact.name}
 							</span>
 						</li>

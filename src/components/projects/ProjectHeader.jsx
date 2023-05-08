@@ -12,13 +12,13 @@ const ProjectSingleHeader = () => {
 			</p>
 			<div className="flex">
 				<div className="flex items-center mr-10">
-					<FiClock className="text-lg text-tSage dark:text-Gold" />
+					<FiClock className="text-lg text-Sage dark:text-Gold" />
 					<span className="font-general-regular ml-2 leading-none text-Navy dark:text-Grey">
 						{singleProjectData.ProjectHeader.publishDate}
 					</span>
 				</div>
 				<div className="flex items-center">
-					<FiTag className="text-lg text-tSage dark:text-Gold" />
+					<FiTag className="text-lg text-Sage dark:text-Gold" />
 					<span className="font-general-regular ml-2 leading-none text-Navy dark:text-Grey">
 						{singleProjectData.ProjectHeader.tags}
 					</span>

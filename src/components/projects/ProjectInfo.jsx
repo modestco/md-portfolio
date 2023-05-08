@@ -17,7 +17,7 @@ const ProjectInfo = () => {
 							(info) => {
 								return (
 									<li
-										className="font-general-regular text-tSage dark:text-Gold"
+										className="font-general-regular text-Sage dark:text-Gold"
 										key={info.id}
 									>
 										<span>{info.title}: </span>
@@ -42,7 +42,7 @@ const ProjectInfo = () => {
 
 				{/* Single project objectives */}
 				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-tSage dark:text-Gold mb-2">
+					<p className="font-general-regular text-2xl font-semibold text-Sage dark:text-Gold mb-2">
 						{singleProjectData.ProjectInfo.ObjectivesHeading}
 					</p>
 					<p className="font-general-regular text-Navy dark:text-Gold">
@@ -52,7 +52,7 @@ const ProjectInfo = () => {
 
 				{/* Single project technologies */}
 				<div className="mb-7">
-					<p className="font-general-regular text-2xl font-semibold text-tSage dark:text-Gold mb-2">
+					<p className="font-general-regular text-2xl font-semibold text-Sage dark:text-Gold mb-2">
 						{singleProjectData.ProjectInfo.Technologies[0].title}
 					</p>
 					<p className="font-general-regular text-Navy dark:text-Gold">
@@ -64,7 +64,7 @@ const ProjectInfo = () => {
 
 				{/* Single project social sharing */}
 				<div>
-					<p className="font-general-regular text-2xl font-semibold text-tSage dark:text-Gold mb-2">
+					<p className="font-general-regular text-2xl font-semibold text-Sage dark:text-Gold mb-2">
 						{singleProjectData.ProjectInfo.SocialSharingHeading}
 					</p>
 					<div className="flex items-center gap-3 mt-5">
@@ -76,7 +76,7 @@ const ProjectInfo = () => {
 										href={social.url}
 										target="__blank"
 										aria-label="Share Project"
-										className="bg-Gold dark:bg-tSage text-gray-400 hover:text-Navy dark:hover:text-Grey p-2 rounded-lg shadow-sm duration-500"
+										className="bg-Gold dark:bg-Sage text-gray-400 hover:text-Navy dark:hover:text-Grey p-2 rounded-lg shadow-sm duration-500"
 									>
 										<span className="text-lg lg:text-2xl">
 											{social.icon}
@@ -98,7 +98,7 @@ const ProjectInfo = () => {
 					return (
 						<p
 							key={details.id}
-							className="font-general-regular mb-5 text-lg text-tSage dark:text-Gold"
+							className="font-general-regular mb-5 text-lg text-Sage dark:text-Gold"
 						>
 							{details.details}
 						</p>

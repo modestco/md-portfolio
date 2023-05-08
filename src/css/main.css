@@ -315,7 +315,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: grey; /* 2 */
 }
 
 /*
@@ -909,23 +909,23 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .text-Navy {
   --tw-text-opacity: 1;
-  color: rgb(13 36 56 / var(--tw-text-opacity));
+  color: #171539 / var(--tw-text-opacity);
 }
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: #ffffff / var(--tw-text-opacity);
 }
 .text-Grey {
   --tw-text-opacity: 1;
-  color: rgb(247 248 252 / var(--tw-text-opacity));
+  color: #e1dddb / var(--tw-text-opacity);
 }
 .text-Rosee {
   --tw-text-opacity: 1;
-  color: rgb(16 45 68 / var(--tw-text-opacity));
+  color: #BD7877/ var(--tw-text-opacity);
 }
-.text-tSage {
+.text-Sage {
   --tw-text-opacity: 1;
-  color: rgb(30 56 81 / var(--tw-text-opacity));
+  color: #6A7B73/ var(--tw-text-opacity);
 }
 .text-gray-500 {
   --tw-text-opacity: 1;
@@ -995,15 +995,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:bg-rose-600:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(79 70 229 / var(--tw-bg-opacity));
+  background-color: #BD7877 / var(--tw-bg-opacity);
 }
-.hover\:bg-tSage:hover {
+.hover\:bg-Sage:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 56 81 / var(--tw-bg-opacity));
+  background-color: #6A7B73 / var(--tw-bg-opacity);
 }
 .hover\:bg-rose-500:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
+  background-color: #BD7877 / var(--tw-bg-opacity);
 }
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
@@ -1011,11 +1011,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:text-rose-500:hover {
   --tw-text-opacity: 1;
-  color: rgb(99 102 241 / var(--tw-text-opacity));
+  color: #BD7877 / var(--tw-text-opacity);
 }
 .hover\:text-Navy:hover {
   --tw-text-opacity: 1;
-  color: rgb(13 36 56 / var(--tw-text-opacity));
+  color: #171539/ var(--tw-text-opacity);
 }
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
@@ -1023,7 +1023,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:text-rose-600:hover {
   --tw-text-opacity: 1;
-  color: rgb(79 70 229 / var(--tw-text-opacity));
+  color: #6A7B73 / var(--tw-text-opacity);
 }
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
@@ -1064,7 +1064,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(49 46 129 / var(--tw-ring-opacity));
 }
-.dark .dark\:border-tSage {
+.dark .dark\:border-Sage {
   --tw-border-opacity: 1;
   border-color: rgb(30 56 81 / var(--tw-border-opacity));
 }
@@ -1078,9 +1078,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:bg-Navy {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 36 56 / var(--tw-bg-opacity));
+  background-color: #171539 / var(--tw-bg-opacity));
 }
-.dark .dark\:bg-tSage {
+.dark .dark\:bg-Sage {
   --tw-bg-opacity: 1;
   background-color: rgb(30 56 81 / var(--tw-bg-opacity));
 }
@@ -1090,7 +1090,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:bg-Rosee {
   --tw-bg-opacity: 1;
-  background-color: rgb(16 45 68 / var(--tw-bg-opacity));
+  background-color: #BD7877 / var(--tw-bg-opacity);
 }
 .dark .dark\:font-medium {
   font-weight: 500;

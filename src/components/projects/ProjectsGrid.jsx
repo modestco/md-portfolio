@@ -18,7 +18,7 @@ const ProjectsGrid = () => {
 	return (
 		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
 			<div className="text-center">
-				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-tSage dark:text-Gold">
+				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-Sage dark:text-Gold">
 					Projects portfolio
 				</p>
 			</div>
@@ -51,14 +51,14 @@ const ProjectsGrid = () => {
                                 hidden
                                 sm:block
                                 bg-Grey
-                                dark:bg-tSage
+                                dark:bg-Sage
                                 p-2.5
                                 shadow-sm
                                 rounded-xl
                                 cursor-pointer
                                 "
 						>
-							<FiSearch className="text-tSage dark:text-Gold w-5 h-5"></FiSearch>
+							<FiSearch className="text-Sage dark:text-Gold w-5 h-5"></FiSearch>
 						</span>
 						<input
 							onChange={(e) => {
@@ -76,7 +76,7 @@ const ProjectsGrid = () => {
                                 text-sm
                                 sm:text-md
                                 bg-White
-                                dark:bg-tSage
+                                dark:bg-Sage
                                 text-Navy
                                 dark:text-Gold
                                 "

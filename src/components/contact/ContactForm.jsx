@@ -50,7 +50,7 @@ const ContactForm = () => {
 							Message
 						</label>
 						<textarea
-							className="w-full px-5 py-2 border border-gray-300 dark:border-Navy border-opacity-50 text-Navy dark:text-White bg-Gold dark:bg-tSage rounded-md shadow-sm text-md"
+							className="w-full px-5 py-2 border border-gray-300 dark:border-Navy border-opacity-50 text-Navy dark:text-White bg-Gold dark:bg-Sage rounded-md shadow-sm text-md"
 							id="message"
 							name="message"
 							cols="14"
