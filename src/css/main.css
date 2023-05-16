@@ -188,7 +188,6 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button; /* 1 */
   background-color: transparent; /* 2 */
   background-image: none; /* 2 */
 }
@@ -229,15 +228,6 @@ Correct the cursor style of increment and decrement buttons in Safari.
 /*
 1. Correct the odd appearance in Chrome and Safari.
 2. Correct the outline style in Safari.
-*/
-
-[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
-}
-
-/*
-Remove the inner padding in Chrome and Safari on macOS.
 */
 
 ::-webkit-search-decoration {
@@ -349,7 +339,6 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
-  vertical-align: middle; /* 2 */
 }
 
 /*
@@ -995,15 +984,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:bg-rose-600:hover {
   --tw-bg-opacity: 1;
-  background-color: #BD7877 / var(--tw-bg-opacity);
+  background-color: #bd7877 / var(--tw-bg-opacity);
 }
 .hover\:bg-Sage:hover {
   --tw-bg-opacity: 1;
-  background-color: #6A7B73 / var(--tw-bg-opacity);
+  background-color: #6a7b73 / var(--tw-bg-opacity);
 }
 .hover\:bg-rose-500:hover {
   --tw-bg-opacity: 1;
-  background-color: #BD7877 / var(--tw-bg-opacity);
+  background-color: #bd7877 / var(--tw-bg-opacity);
 }
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
@@ -1011,7 +1000,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:text-rose-500:hover {
   --tw-text-opacity: 1;
-  color: #BD7877 / var(--tw-text-opacity);
+  color: #bd7877 / var(--tw-text-opacity);
 }
 .hover\:text-Navy:hover {
   --tw-text-opacity: 1;
@@ -1023,7 +1012,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .hover\:text-rose-600:hover {
   --tw-text-opacity: 1;
-  color: #6A7B73 / var(--tw-text-opacity);
+  color: #6a7b73 / var(--tw-text-opacity);
 }
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
@@ -1078,7 +1067,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:bg-Navy {
   --tw-bg-opacity: 1;
-  background-color: #171539 / var(--tw-bg-opacity));
+  background-color: #171539 / var(--tw-bg-opacity);
 }
 .dark .dark\:bg-Sage {
   --tw-bg-opacity: 1;
@@ -1090,7 +1079,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .dark .dark\:bg-Rosee {
   --tw-bg-opacity: 1;
-  background-color: #BD7877 / var(--tw-bg-opacity);
+  background-color: #bd7877 / var(--tw-bg-opacity);
 }
 .dark .dark\:font-medium {
   font-weight: 500;
