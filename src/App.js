@@ -5,7 +5,6 @@ import ScrollToTop from "./components/ScrollToTop";
 import AppHeader from "./components/shared/AppHeader";
 import "./css/App.css";
 import UseScrollToTop from "./hooks/useScrollToTop";
-import Kofi from "./components/reusable/Kofi";
 
 const About = lazy(() => import("./pages/AboutMe"));
 const Contact = lazy(() => import("./pages/Contact.jsx"));
@@ -35,7 +34,6 @@ function App() {
           </Suspense>
         </Router>
         <UseScrollToTop />
-        <Kofi />
       </div>
     </AnimatePresence>
   );
